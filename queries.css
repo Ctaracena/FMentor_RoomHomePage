@@ -1,0 +1,258 @@
+@media screen and (max-width: 1200px) {
+  .top .hero .menu .navbar {
+    width: 100%;
+  }
+  .top .shop-now .details {
+    padding: 70px 10% 0;
+  }
+  .top .shop-now .details h1 {
+    font-size: 26px;
+  }
+  .bottom .about h2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .top .hero {
+    width: 100vw;
+    height: 500px;
+  }
+  .top .hero .menu {
+    width: 55%;
+  }
+  .top .hero .mobile-slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .top .shop-now {
+    width: 100vw;
+    height: 500px;
+  }
+  .top .shop-now .details {
+    padding: 100px 20% 0;
+  }
+  .top .shop-now .details h1 {
+    font-size: 40px;
+  }
+  .top .shop-now .details p {
+    line-height: 1.8;
+    font-size: 14px;
+  }
+  .top .shop-now .slider {
+    display: none;
+    position: absolute;
+    top: -555px;
+    right: 0px;
+  }
+  .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .bottom .table img {
+    width: 100vw;
+    height: auto;
+  }
+  .bottom .about {
+    height: 300px;
+    padding: 150px 15%;
+  }
+  .bottom .about h2 {
+    font-size: 25px;
+  }
+  .bottom .about p {
+    line-height: 2;
+    font-size: 14px;
+  }
+  .bottom .chair img {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .top .hero {
+    width: 100vw;
+    height: 500px;
+    background-image: url("images/desktop-image-hero-1.jpg");
+  }
+  .top .hero .menu {
+    width: 55%;
+    display: none;
+  }
+  .top .hero .navbar {
+    width: 70%;
+    display: none;
+  }
+  .top .hero .mobile {
+    width: 50vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 30px 50px;
+  }
+  .top .hero .mobile img {
+    cursor: pointer;
+  }
+  .top .hero .mobile-navbar {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100px;
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+  }
+  .top .hero .mobile-navbar img {
+    cursor: pointer;
+  }
+  .top .hero .mobile-navbar ul {
+    width: 75%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+  }
+  .top .hero .mobile-navbar ul a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: lowercase;
+  }
+  .top .hero .mobile-navbar ul a:hover {
+    border-bottom: 3px solid black;
+  }
+  @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-100px);
+      transform: translateY(-100px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-100px);
+      transform: translateY(-100px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  .top .shop-now .details {
+    padding: 80px 15% 0;
+  }
+  .top .shop-now .details h1 {
+    font-size: 32px;
+  }
+  .top .shop-now .details p {
+    line-height: 1.8;
+    font-size: 14px;
+  }
+  .bottom .about h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .top .shop-now .details {
+    padding: 80px 12% 0;
+  }
+  .top .shop-now .details h1 {
+    font-size: 30px;
+  }
+  .top .shop-now .details p {
+    line-height: 1.8;
+    font-size: 13px;
+  }
+  .bottom .about {
+    padding: 80px 10% 20px;
+  }
+  .bottom .about h2 {
+    font-size: 20px;
+  }
+  .bottom .about p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .top .hero {
+    background-image: url("images/mobile-image-hero-1.jpg");
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .top .hero {
+    height: 360px;
+    background-size: cover;
+  }
+  .top .hero .mobile-slider {
+    bottom: 429px;
+  }
+  .top .shop-now {
+    height: 450px;
+  }
+  .top .shop-now .details {
+    padding: 70px 9% 0;
+  }
+  .top .shop-now .details h1 {
+    font-size: 26px;
+  }
+  .top .shop-now .details p {
+    line-height: 1.8;
+    font-size: 12px;
+  }
+  .bottom .about {
+    padding: 60px 10% 30px;
+  }
+  .bottom .about h2 {
+    font-size: 14px;
+  }
+  .bottom .about p {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=queries.css.map */

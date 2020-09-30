@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap");
+* {
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 65vh;
+  overflow: hidden;
+}
+
+.top .hero {
+  width: 65vw;
+  background-image: url("images/desktop-image-hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.top .hero .menu {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 8%;
+}
+
+.top .hero .navbar {
+  width: 70%;
+}
+
+.top .hero .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+.top .hero .navbar ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.top .hero .navbar ul a:hover {
+  border-bottom: 3px solid white;
+}
+
+.top .hero .mobile {
+  display: none;
+}
+
+.top .hero .mobile-navbar {
+  display: none;
+}
+
+.top .hero .mobile-slider {
+  position: absolute;
+  bottom: 289px;
+  right: 0;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top .hero .mobile-slider img {
+  margin: 0 15px;
+  cursor: pointer;
+  background-color: black;
+  padding: 15px 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.top .hero .mobile-slider img:hover {
+  background-color: #454545;
+}
+
+.top .shop-now {
+  width: 37vw;
+  position: relative;
+}
+
+.top .shop-now .details {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding: 90px 13% 0;
+}
+
+.top .shop-now .details h1 {
+  color: black;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.top .shop-now .details p {
+  color: #a1a1a1;
+  line-height: 1.7;
+  font-size: 12px;
+}
+
+.top .shop-now .details .call-to-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.top .shop-now .details .call-to-action p {
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+.top .shop-now .details .call-to-action p:hover {
+  color: #454545;
+}
+
+.top .shop-now .details .call-to-action a {
+  text-decoration: none;
+}
+
+.top .shop-now .slider {
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top .shop-now .slider img {
+  margin: 0 15px;
+  cursor: pointer;
+  background-color: black;
+  padding: 15px 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.top .shop-now .slider img:hover {
+  background-color: #454545;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 35vh;
+  overflow: hidden;
+}
+
+.bottom .table img {
+  width: 31vw;
+  height: 280px;
+}
+
+.bottom .about {
+  padding: 55px 2.5%;
+}
+
+.bottom .about h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.bottom .about p {
+  color: #a1a1a1;
+  line-height: 1.8;
+  font-size: 12px;
+}
+
+.bottom .chair img {
+  width: 27vw;
+  height: 280px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */

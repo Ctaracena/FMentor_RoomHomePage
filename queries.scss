@@ -1,0 +1,263 @@
+$Dark-Gray: hsl(0, 0%, 63%);
+$Black: hsl(0, 0%, 0%);
+$White: hsl(0, 0%, 100%);
+$Very-Dark-Gray: hsl(0, 0%, 27%);
+
+
+@media screen and (max-width: 1200px) {
+  .top {
+    .hero {
+      .menu {
+        .navbar {
+          width: 100%;
+        }
+      }
+    }
+    .shop-now {
+      .details {
+        padding: 70px 10% 0;
+        h1 {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+  .bottom {
+    .about {
+      h2 {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .top {
+    flex-direction: column;
+    height: auto;
+    .hero {
+      width: 100vw;
+      height: 500px;
+      .menu {
+        width: 55%;
+      }
+      .mobile-slider {
+        display: flex;
+      }
+    }
+    .shop-now {
+      width: 100vw;
+      height: 500px;
+      .details {
+        padding: 100px 20% 0;
+        h1 {
+          font-size: 40px;
+        }
+        p {
+          line-height: 1.8;
+          font-size: 14px;
+        }
+      }
+        .slider {
+          display: none;
+          position: absolute;
+          top: -555px;
+          right: 0px;
+        }
+  
+    }
+  }
+  
+  .bottom {
+    flex-direction: column;
+    height: auto;
+    .table img {
+      width: 100vw;
+      height: auto;
+    }
+    .about {
+      height: 300px;
+      padding: 150px 15%;
+      h2 {
+        font-size: 25px;
+      }
+      p {
+        line-height: 2;
+        font-size: 14px;
+      }
+    }
+    .chair img {
+      width: 100vw;
+      height: auto;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 650px) {
+  .top {
+    flex-direction: column;
+    height: auto;
+    .hero {
+      width: 100vw;
+      height: 500px;
+      background-image: url('images/desktop-image-hero-1.jpg');
+      .menu {
+        width: 55%;
+        display: none;
+      }
+      .navbar {
+        width: 70%;
+        display: none;
+      }
+      .mobile {
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px 50px;
+        img {
+          cursor: pointer;
+        }
+      }
+      .mobile-navbar {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        background-color: $White;
+        width: 100vw;
+        height: 100px;
+        display: none;
+        align-items: center;
+        justify-content: space-evenly;
+        animation-duration: 0.5s;
+        img {
+          cursor: pointer;
+        }
+        ul {
+          width: 75%;
+          height: 100px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          list-style: none;
+          a {
+            color: $Black;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 12px;
+            text-transform: lowercase;
+          }
+          a:hover {
+            border-bottom: 3px solid $Black;
+          }
+        }
+        @keyframes slide-bottom {
+          0% {
+            -webkit-transform: translateY(-100px);
+                    transform: translateY(-100px);
+          }
+          100% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+          }
+        }        
+      }
+    }
+    .shop-now {
+      .details {
+        padding: 80px 15% 0;
+        h1 {
+          font-size: 32px;
+        }
+        p {
+          line-height: 1.8;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  
+  .bottom {
+    .about {
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .top {
+    .shop-now {
+      .details {
+        padding: 80px 12% 0;
+        h1 {
+          font-size: 30px;
+        }
+        p {
+          line-height: 1.8;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  
+  .bottom {
+    .about {
+      padding: 80px 10% 20px;
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .top {
+    .hero {
+      background-image: url('images/mobile-image-hero-1.jpg');
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .top {
+    .hero {
+      height: 360px;
+      background-size: cover;
+      .mobile-slider {
+        bottom: 429px;
+      }
+    }
+    
+    .shop-now {
+      height: 450px;
+      .details {
+        padding: 70px 9% 0;
+        h1 {
+          font-size: 26px;
+        }
+        p {
+          line-height: 1.8;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  
+  .bottom {
+    .about {
+      padding: 60px 10% 30px;
+      h2 {
+        font-size: 14px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
