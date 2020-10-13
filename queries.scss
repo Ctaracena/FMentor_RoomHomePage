@@ -36,6 +36,7 @@ $Very-Dark-Gray: hsl(0, 0%, 27%);
     flex-direction: column;
     height: auto;
     .hero {
+      position: relative;
       width: 100vw;
       height: 500px;
       .menu {
@@ -43,6 +44,8 @@ $Very-Dark-Gray: hsl(0, 0%, 27%);
       }
       .mobile-slider {
         display: flex;
+        position: absolute;
+        bottom: 0;
       }
     }
     .shop-now {
@@ -77,7 +80,7 @@ $Very-Dark-Gray: hsl(0, 0%, 27%);
     }
     .about {
       height: 300px;
-      padding: 150px 15%;
+      padding: 150px 15% 50px;
       h2 {
         font-size: 25px;
       }
@@ -189,6 +192,9 @@ $Very-Dark-Gray: hsl(0, 0%, 27%);
 
 @media screen and (max-width: 550px) {
   .top {
+    .hero {
+      background-image: url('images/mobile-image-hero-1.jpg');
+    } 
     .shop-now {
       .details {
         padding: 80px 12% 0;
@@ -205,7 +211,7 @@ $Very-Dark-Gray: hsl(0, 0%, 27%);
   
   .bottom {
     .about {
-      padding: 80px 10% 20px;
+      padding: 80px 10%;
       h2 {
         font-size: 20px;
       }
@@ -216,22 +222,12 @@ $Very-Dark-Gray: hsl(0, 0%, 27%);
   }
 }
 
-@media screen and (max-width: 500px) {
-  .top {
-    .hero {
-      background-image: url('images/mobile-image-hero-1.jpg');
-    }
-  }
-}
-
 @media screen and (max-width: 400px) {
   .top {
     .hero {
       height: 360px;
       background-size: cover;
-      .mobile-slider {
-        bottom: 429px;
-      }
+      
     }
     
     .shop-now {

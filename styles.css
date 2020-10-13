@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
 .top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,13 +49,13 @@
   list-style: none;
 }
 
-.top .hero .navbar ul a {
+.top .hero .navbar ul li a {
   color: white;
   text-decoration: none;
   font-size: 12px;
 }
 
-.top .hero .navbar ul a:hover {
+.top .hero .navbar ul li a:hover {
   border-bottom: 3px solid white;
 }
 
@@ -119,21 +124,18 @@
   margin-top: 30px;
 }
 
-.top .shop-now .details .call-to-action p {
+.top .shop-now .details .call-to-action p a {
   color: black;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 5px;
   margin-right: 30px;
   font-size: 14px;
-}
-
-.top .shop-now .details .call-to-action p:hover {
-  color: #454545;
-}
-
-.top .shop-now .details .call-to-action a {
   text-decoration: none;
+}
+
+.top .shop-now .details .call-to-action p a:hover {
+  color: #454545;
 }
 
 .top .shop-now .slider {

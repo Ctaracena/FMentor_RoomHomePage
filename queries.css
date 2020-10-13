@@ -22,6 +22,7 @@
     height: auto;
   }
   .top .hero {
+    position: relative;
     width: 100vw;
     height: 500px;
   }
@@ -32,6 +33,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: absolute;
+    bottom: 0;
   }
   .top .shop-now {
     width: 100vw;
@@ -66,7 +69,7 @@
   }
   .bottom .about {
     height: 300px;
-    padding: 150px 15%;
+    padding: 150px 15% 50px;
   }
   .bottom .about h2 {
     font-size: 25px;
@@ -197,6 +200,9 @@
 }
 
 @media screen and (max-width: 550px) {
+  .top .hero {
+    background-image: url("images/mobile-image-hero-1.jpg");
+  }
   .top .shop-now .details {
     padding: 80px 12% 0;
   }
@@ -208,7 +214,7 @@
     font-size: 13px;
   }
   .bottom .about {
-    padding: 80px 10% 20px;
+    padding: 80px 10%;
   }
   .bottom .about h2 {
     font-size: 20px;
@@ -218,19 +224,10 @@
   }
 }
 
-@media screen and (max-width: 500px) {
-  .top .hero {
-    background-image: url("images/mobile-image-hero-1.jpg");
-  }
-}
-
 @media screen and (max-width: 400px) {
   .top .hero {
     height: 360px;
     background-size: cover;
-  }
-  .top .hero .mobile-slider {
-    bottom: 429px;
   }
   .top .shop-now {
     height: 450px;
